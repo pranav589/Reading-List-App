@@ -14,7 +14,7 @@ const BookContextProvider=(props)=>{
 
   const removeBook=(id)=>{
     setBooks(books.filter(book=>{
-      boo.id!==id
+      book.id!==id
     }))
   }
 
@@ -24,4 +24,6 @@ const BookContextProvider=(props)=>{
     </BookContextProvider>
   )
 }
+
+export default BookContextProvider
 
